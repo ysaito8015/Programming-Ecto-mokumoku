@@ -1,0 +1,121 @@
+# Programming Ecto の読書メモ
+- 出版社ページ
+    - https://pragprog.com/titles/wmecto/programming-ecto/
+- コード
+    - https://media.pragprog.com/titles/wmecto/code/wmecto-code.zip
+- errata
+    - https://devtalk.com/books/programming-ecto/errata
+
+# 目次
+- Introduction
+## Ecto Fundamentals
+- Getting Started with Repo
+    - Ecto and Elixir
+    - Ecto Modules
+    - How Ecto Is Organized
+    - Setting Up the Sample App
+    - The Repository Pattern
+    - The Repo Module
+    - Putting Our Repo to Work
+    - Customizing Your Repo
+    - Wrapping Up
+- Querying Your Database
+    - Query Basics
+    - Refining Our Results with where
+    - Working with Joins
+    - Composing Queries
+    - Other Ways to Use Queries
+    - Wrapping Up
+- Connecting Your Tables to Elixir Structs with Schemas
+    - Creating Schemas
+    - Writing Queries with Schemas
+    - Inserting and Deleting with Schemas
+    - Adding Associations to Schemas
+    - Working with Associations in Queries
+    - Optimizing Associations with Embedded Schemas
+    - Deleting Records with Associations
+    - Using Schemas to Seed a Database
+    - Wrapping Up
+- Making Changes with Changesets excerpt
+    - Introducing Changesets
+    - Casting and Filtering
+    - Validating Your Data
+    - Capturing Errors
+    - Using Changesets Without Schemas
+    - Working with Associations
+    - Wrapping Up
+- Making Multiple Changes with Transactions and Multi
+    - Running Transactions with Functions
+    - Running Transactions with Ecto.Multi excerpt
+    - Wrapping Up
+- Making Changes to Your Database
+    - Introducing Migrations
+    - Your First Migration
+    - Running Migrations
+    - Rolling Back Migrations
+    - Adding Indexes
+    - Changing Data and Table Structure Together
+    - Specifying Up and Down Operations
+    - Changing Default Behaviors
+    - Wrapping Up
+## Ecto Applied
+- Adding Ecto to an Elixir Application Without Phoenix
+    - Creating a New Project
+    - Adding Ecto?s Dependencies
+    - Creating Your Repo Module
+    - Adding Ecto to the Supervision Tree
+    - Using Multiple Ecto Repos
+    - Starting Your App
+    - Wrapping Up
+- Working with Changesets and Phoenix Forms
+    - Generating a Form for a Single Schema
+    - Displaying Changeset Errors
+    - Creating a Form with an Association
+    - Creating a Form with Multiple Associations
+    - Wrapping Up
+- Testing With Sandboxes
+    - Setting Up an Async Test
+    - Changing the Ownership Mode
+    - Safely Sharing Connections with Allowances
+    - Wrapping Up
+- Creating and Using Custom Types
+    - Building on Top of Ecto?s Types
+    - Adding Custom Types Without the Built-In Types
+    - Wrapping Up
+- Inserting and Updating with Upserts
+    - Performing Upserts Without Schemas
+    - Performing Upserts with Schemas
+    - Wrapping Up
+- Optimizing Your Application Design
+    - Separating the Pure from the Impure
+    - Working with Contexts
+    - Working with Umbrella Applications
+    - Wrapping Up
+- Working with Embedded Schemas
+    - Creating Embedded Schemas
+    - Adding Embeds to Another Schema
+    - Making Changes
+    - Choosing Between Embedded Schemas and Associations
+    - Wrapping Up
+- Creating Polymorphic Associations
+    - Polymorphism in Other Frameworks
+    - Approach #1: Multiple Foreign Keys
+    - Approach #2: Using an Abstract Schema
+    - Approach #3: Using many_to_many
+    - Wrapping Up
+- Optimizing IEx for Ecto
+    - Adding Imports and Aliases
+    - Adding Helper Functions
+    - Wrapping Up
+- Using Schemas Without Tables
+    - Downsides to Locking Schemas to Tables
+    - Breaking Up the Artist Schema
+    - Creating Table-less Schemas
+    - Saving the Table-less Structs
+    - Wrapping Up
+- Tuning for Performance
+    - Preparing to Optimize
+    - Optimizing Queries
+    - Executing Bulk Operations
+    - Fetching Large Datasets with Streams
+    - Wrapping Up
